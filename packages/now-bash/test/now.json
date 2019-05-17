@@ -5,7 +5,7 @@
     {
       "src": "script.sh",
       "use": "@now/static-build",
-      "config": { "/projects/trash": "public" }
+      "config": { ".": "public" }
     }
   ]
 }
