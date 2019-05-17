@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "my-hugo-project",
+  "builds": [
+    {
+      "src": "script.sh",
+      "use": "@now/static-build",
+      "config": { "/projects/trash": "public" }
+    }
+  ]
+}
